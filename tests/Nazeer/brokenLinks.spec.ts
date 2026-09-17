@@ -13,10 +13,13 @@ async function amazonURLOpen({ page }) {
 test('test case 1: login with valid credentials', async ({ page }) => {
     await amazonURLOpen({ page });
 
-const links = await page.locator('a[href]').evaluateAll;
+const links = page.locator('a[href]').evaluateAll;
 
 
 console.log(links);
+console.log("hello Nazeer is checking and pushing code second time");
+
+console.log("hello Nazeer is checking and pushing code second time");
 
 
 })
