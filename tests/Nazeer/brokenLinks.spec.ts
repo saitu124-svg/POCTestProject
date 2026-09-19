@@ -19,8 +19,6 @@ const links = page.locator('a[href]').evaluateAll;
 console.log(links);
 console.log("hello Nazeer is checking and pushing code second time");
 
-console.log("hello Nazeer is checking and pushing code second time");
-
 
 })
 
