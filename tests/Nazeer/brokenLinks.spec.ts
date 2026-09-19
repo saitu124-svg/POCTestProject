@@ -1,7 +1,7 @@
-import { test, expect } from '@playwright/test';
+import {Page, test, expect } from '@playwright/test';
 
 
-async function amazonURLOpen({ page }) {
+async function amazonURLOpen({ page }: { page: Page })  {
     await page.goto('https://www.Amazon.com');
 
     // Expect a title "to contain" a substring.
