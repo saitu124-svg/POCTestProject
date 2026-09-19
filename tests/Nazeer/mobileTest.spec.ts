@@ -1,4 +1,5 @@
 import { chromium, devices } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 
 console.log('Program started');
 
