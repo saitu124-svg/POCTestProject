@@ -12,7 +12,7 @@ test('New to playwright', async ({ page }) => {
 
 
 test('test case 1: login with valid credentials', async ({ page }) => {
-    await URLOpen2({ page });
+   // await URLOpen2({ page });
 
     const userName = page.getByLabel('Username');
     await userName.fill('student');
